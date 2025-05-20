@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "students_course_2s",
+  "info": {
+    "singularName": "students-course-2",
+    "pluralName": "students-course-2s",
+    "displayName": "Students Course 2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "StudentName": {
+      "type": "string"
+    },
+    "OverallProgress": {
+      "type": "string"
+    },
+    "ClickUpLink": {
+      "type": "string"
+    },
+    "CurrentTopic": {
+      "type": "string"
+    },
+    "CurrentSprint": {
+      "type": "string"
+    },
+    "LastAssessmentTopic": {
+      "type": "string"
+    },
+    "LastAssessmentGrade": {
+      "type": "string"
+    }
+  }
+}

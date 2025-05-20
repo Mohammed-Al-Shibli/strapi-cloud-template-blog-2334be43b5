@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "course_2s",
+  "info": {
+    "singularName": "course-2",
+    "pluralName": "course-2s",
+    "displayName": "Course 2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "CourseName": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "ExpectedProgress": {
+      "type": "string"
+    },
+    "CurrentProgress": {
+      "type": "string"
+    }
+  }
+}

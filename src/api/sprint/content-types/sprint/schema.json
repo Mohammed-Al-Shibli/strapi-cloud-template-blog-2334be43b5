@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sprints",
+  "info": {
+    "singularName": "sprint",
+    "pluralName": "sprints",
+    "displayName": "Sprint"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "SprintNumber": {
+      "type": "string"
+    },
+    "Year": {
+      "type": "string"
+    },
+    "WeekNumberOfYear": {
+      "type": "string"
+    },
+    "CourseName": {
+      "type": "string"
+    },
+    "StartDate": {
+      "type": "string"
+    },
+    "EndDate": {
+      "type": "string"
+    },
+    "SprintStatus": {
+      "type": "enumeration",
+      "enum": [
+        "Active",
+        "Upcoming",
+        "Closed"
+      ]
+    },
+    "SprintGoal": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "students",
+  "info": {
+    "singularName": "student",
+    "pluralName": "students",
+    "displayName": "Students Course 1",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "StudentName": {
+      "type": "string"
+    },
+    "OverallProgress": {
+      "type": "string"
+    },
+    "ClickUpLink": {
+      "type": "string"
+    },
+    "CurrentTopic": {
+      "type": "string"
+    },
+    "CurrentSprint": {
+      "type": "string"
+    },
+    "LastAssessmentTopic": {
+      "type": "string"
+    },
+    "LastAssessmentGrade": {
+      "type": "string"
+    }
+  }
+}

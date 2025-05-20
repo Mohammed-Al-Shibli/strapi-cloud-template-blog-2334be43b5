@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sprint_topics",
+  "info": {
+    "singularName": "sprint-topic",
+    "pluralName": "sprint-topics",
+    "displayName": "SprintTopic"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "SprintNumber": {
+      "type": "string"
+    },
+    "TopicName": {
+      "type": "string"
+    },
+    "SprintStartDate": {
+      "type": "date"
+    },
+    "SprintEndDate": {
+      "type": "date"
+    },
+    "SprintTopicDeliveryStatus": {
+      "type": "string"
+    }
+  }
+}

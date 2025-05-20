@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "assessments",
+  "info": {
+    "singularName": "assessment",
+    "pluralName": "assessments",
+    "displayName": "Assessment"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "AssessmentName": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "CourseName": {
+      "type": "string"
+    },
+    "SprintNumber": {
+      "type": "string"
+    },
+    "TopicName": {
+      "type": "string"
+    },
+    "Points": {
+      "type": "string"
+    },
+    "Date": {
+      "type": "date"
+    }
+  }
+}
