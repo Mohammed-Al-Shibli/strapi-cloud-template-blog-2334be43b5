@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2025-05-29T11:07:42.709Z"
+    "x-generation-date": "2025-06-14T13:21:12.713Z"
   },
   "x-strapi-config": {
     "plugins": [
@@ -8031,22 +8031,19 @@
               "StudentName": {
                 "type": "string"
               },
-              "OverallProgress": {
+              "Attendance": {
                 "type": "string"
               },
-              "ClickUpLink": {
+              "ScoreApril2025": {
                 "type": "string"
               },
-              "CurrentTopic": {
+              "ScoreMay2025": {
                 "type": "string"
               },
-              "CurrentSprint": {
+              "GithubLink": {
                 "type": "string"
               },
-              "LastAssessmentTopic": {
-                "type": "string"
-              },
-              "LastAssessmentGrade": {
+              "LatestSprintLink": {
                 "type": "string"
               },
               "locale": {
@@ -8117,22 +8114,19 @@
           "StudentName": {
             "type": "string"
           },
-          "OverallProgress": {
+          "Attendance": {
             "type": "string"
           },
-          "ClickUpLink": {
+          "ScoreApril2025": {
             "type": "string"
           },
-          "CurrentTopic": {
+          "ScoreMay2025": {
             "type": "string"
           },
-          "CurrentSprint": {
+          "GithubLink": {
             "type": "string"
           },
-          "LastAssessmentTopic": {
-            "type": "string"
-          },
-          "LastAssessmentGrade": {
+          "LatestSprintLink": {
             "type": "string"
           },
           "createdAt": {
@@ -8438,22 +8432,19 @@
                 "StudentName": {
                   "type": "string"
                 },
-                "OverallProgress": {
+                "Attendance": {
                   "type": "string"
                 },
-                "ClickUpLink": {
+                "ScoreApril2025": {
                   "type": "string"
                 },
-                "CurrentTopic": {
+                "ScoreMay2025": {
                   "type": "string"
                 },
-                "CurrentSprint": {
+                "GithubLink": {
                   "type": "string"
                 },
-                "LastAssessmentTopic": {
-                  "type": "string"
-                },
-                "LastAssessmentGrade": {
+                "LatestSprintLink": {
                   "type": "string"
                 },
                 "createdAt": {
@@ -8535,22 +8526,19 @@
               "StudentName": {
                 "type": "string"
               },
-              "OverallProgress": {
+              "Attendance": {
                 "type": "string"
               },
-              "ClickUpLink": {
+              "ScoreApril2025": {
                 "type": "string"
               },
-              "CurrentTopic": {
+              "ScoreMay2025": {
                 "type": "string"
               },
-              "CurrentSprint": {
+              "GithubLink": {
                 "type": "string"
               },
-              "LastAssessmentTopic": {
-                "type": "string"
-              },
-              "LastAssessmentGrade": {
+              "LatestSprint": {
                 "type": "string"
               },
               "locale": {
@@ -8621,22 +8609,19 @@
           "StudentName": {
             "type": "string"
           },
-          "OverallProgress": {
+          "Attendance": {
             "type": "string"
           },
-          "ClickUpLink": {
+          "ScoreApril2025": {
             "type": "string"
           },
-          "CurrentTopic": {
+          "ScoreMay2025": {
             "type": "string"
           },
-          "CurrentSprint": {
+          "GithubLink": {
             "type": "string"
           },
-          "LastAssessmentTopic": {
-            "type": "string"
-          },
-          "LastAssessmentGrade": {
+          "LatestSprint": {
             "type": "string"
           },
           "createdAt": {
@@ -8942,22 +8927,19 @@
                 "StudentName": {
                   "type": "string"
                 },
-                "OverallProgress": {
+                "Attendance": {
                   "type": "string"
                 },
-                "ClickUpLink": {
+                "ScoreApril2025": {
                   "type": "string"
                 },
-                "CurrentTopic": {
+                "ScoreMay2025": {
                   "type": "string"
                 },
-                "CurrentSprint": {
+                "GithubLink": {
                   "type": "string"
                 },
-                "LastAssessmentTopic": {
-                  "type": "string"
-                },
-                "LastAssessmentGrade": {
+                "LatestSprint": {
                   "type": "string"
                 },
                 "createdAt": {

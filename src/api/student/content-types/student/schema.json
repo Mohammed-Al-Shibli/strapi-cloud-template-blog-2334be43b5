@@ -14,22 +14,19 @@
     "StudentName": {
       "type": "string"
     },
-    "OverallProgress": {
+    "Attendance": {
       "type": "string"
     },
-    "ClickUpLink": {
+    "ScoreApril2025": {
       "type": "string"
     },
-    "CurrentTopic": {
+    "ScoreMay2025": {
       "type": "string"
     },
-    "CurrentSprint": {
+    "GithubLink": {
       "type": "string"
     },
-    "LastAssessmentTopic": {
-      "type": "string"
-    },
-    "LastAssessmentGrade": {
+    "LatestSprintLink": {
       "type": "string"
     }
   }

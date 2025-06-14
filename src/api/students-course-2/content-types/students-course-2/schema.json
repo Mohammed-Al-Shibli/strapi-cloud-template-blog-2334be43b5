@@ -4,7 +4,8 @@
   "info": {
     "singularName": "students-course-2",
     "pluralName": "students-course-2s",
-    "displayName": "Students Course 2"
+    "displayName": "Students Course 2",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,22 +14,19 @@
     "StudentName": {
       "type": "string"
     },
-    "OverallProgress": {
+    "Attendance": {
       "type": "string"
     },
-    "ClickUpLink": {
+    "ScoreApril2025": {
       "type": "string"
     },
-    "CurrentTopic": {
+    "ScoreMay2025": {
       "type": "string"
     },
-    "CurrentSprint": {
+    "GithubLink": {
       "type": "string"
     },
-    "LastAssessmentTopic": {
-      "type": "string"
-    },
-    "LastAssessmentGrade": {
+    "LatestSprint": {
       "type": "string"
     }
   }

@@ -611,22 +611,21 @@ export interface ApiStudentStudent extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
-    ClickUpLink: Schema.Attribute.String;
+    Attendance: Schema.Attribute.String;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    CurrentSprint: Schema.Attribute.String;
-    CurrentTopic: Schema.Attribute.String;
-    LastAssessmentGrade: Schema.Attribute.String;
-    LastAssessmentTopic: Schema.Attribute.String;
+    GithubLink: Schema.Attribute.String;
+    LatestSprintLink: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
       'api::student.student'
     > &
       Schema.Attribute.Private;
-    OverallProgress: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
+    ScoreApril2025: Schema.Attribute.String;
+    ScoreMay2025: Schema.Attribute.String;
     StudentName: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
@@ -638,6 +637,7 @@ export interface ApiStudentsCourse2StudentsCourse2
   extends Struct.CollectionTypeSchema {
   collectionName: 'students_course_2s';
   info: {
+    description: '';
     displayName: 'Students Course 2';
     pluralName: 'students-course-2s';
     singularName: 'students-course-2';
@@ -646,22 +646,21 @@ export interface ApiStudentsCourse2StudentsCourse2
     draftAndPublish: true;
   };
   attributes: {
-    ClickUpLink: Schema.Attribute.String;
+    Attendance: Schema.Attribute.String;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    CurrentSprint: Schema.Attribute.String;
-    CurrentTopic: Schema.Attribute.String;
-    LastAssessmentGrade: Schema.Attribute.String;
-    LastAssessmentTopic: Schema.Attribute.String;
+    GithubLink: Schema.Attribute.String;
+    LatestSprint: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
       'api::students-course-2.students-course-2'
     > &
       Schema.Attribute.Private;
-    OverallProgress: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
+    ScoreApril2025: Schema.Attribute.String;
+    ScoreMay2025: Schema.Attribute.String;
     StudentName: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
