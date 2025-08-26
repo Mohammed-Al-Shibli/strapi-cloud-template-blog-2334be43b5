@@ -625,7 +625,12 @@ export interface ApiStudentStudent extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
     ScoreApril2025: Schema.Attribute.String;
+    ScoreAug2025: Schema.Attribute.String;
+    ScoreJul2025: Schema.Attribute.String;
+    ScoreJun2025: Schema.Attribute.String;
     ScoreMay2025: Schema.Attribute.String;
+    ScoreOct2025: Schema.Attribute.String;
+    ScoreSep2025: Schema.Attribute.String;
     StudentName: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
@@ -660,7 +665,12 @@ export interface ApiStudentsCourse2StudentsCourse2
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
     ScoreApril2025: Schema.Attribute.String;
+    ScoreAug2025: Schema.Attribute.String;
+    ScoreJul2025: Schema.Attribute.String;
+    ScoreJun2025: Schema.Attribute.String;
     ScoreMay2025: Schema.Attribute.String;
+    ScoreOct2025: Schema.Attribute.String;
+    ScoreSep2025: Schema.Attribute.String;
     StudentName: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &

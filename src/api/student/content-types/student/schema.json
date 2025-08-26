@@ -28,6 +28,21 @@
     },
     "LatestSprint": {
       "type": "string"
+    },
+    "ScoreJun2025": {
+      "type": "string"
+    },
+    "ScoreJul2025": {
+      "type": "string"
+    },
+    "ScoreAug2025": {
+      "type": "string"
+    },
+    "ScoreSep2025": {
+      "type": "string"
+    },
+    "ScoreOct2025": {
+      "type": "string"
     }
   }
 }

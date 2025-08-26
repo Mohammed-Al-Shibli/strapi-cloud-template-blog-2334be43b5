@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2025-06-14T15:33:07.551Z"
+    "x-generation-date": "2025-08-26T08:06:12.365Z"
   },
   "x-strapi-config": {
     "plugins": [
@@ -8046,6 +8046,21 @@
               "LatestSprint": {
                 "type": "string"
               },
+              "ScoreJun2025": {
+                "type": "string"
+              },
+              "ScoreJul2025": {
+                "type": "string"
+              },
+              "ScoreAug2025": {
+                "type": "string"
+              },
+              "ScoreSep2025": {
+                "type": "string"
+              },
+              "ScoreOct2025": {
+                "type": "string"
+              },
               "locale": {
                 "type": "string"
               },
@@ -8127,6 +8142,21 @@
             "type": "string"
           },
           "LatestSprint": {
+            "type": "string"
+          },
+          "ScoreJun2025": {
+            "type": "string"
+          },
+          "ScoreJul2025": {
+            "type": "string"
+          },
+          "ScoreAug2025": {
+            "type": "string"
+          },
+          "ScoreSep2025": {
+            "type": "string"
+          },
+          "ScoreOct2025": {
             "type": "string"
           },
           "createdAt": {
@@ -8445,6 +8475,21 @@
                   "type": "string"
                 },
                 "LatestSprint": {
+                  "type": "string"
+                },
+                "ScoreJun2025": {
+                  "type": "string"
+                },
+                "ScoreJul2025": {
+                  "type": "string"
+                },
+                "ScoreAug2025": {
+                  "type": "string"
+                },
+                "ScoreSep2025": {
+                  "type": "string"
+                },
+                "ScoreOct2025": {
                   "type": "string"
                 },
                 "createdAt": {
@@ -8541,6 +8586,21 @@
               "LatestSprint": {
                 "type": "string"
               },
+              "ScoreJun2025": {
+                "type": "string"
+              },
+              "ScoreJul2025": {
+                "type": "string"
+              },
+              "ScoreAug2025": {
+                "type": "string"
+              },
+              "ScoreSep2025": {
+                "type": "string"
+              },
+              "ScoreOct2025": {
+                "type": "string"
+              },
               "locale": {
                 "type": "string"
               },
@@ -8622,6 +8682,21 @@
             "type": "string"
           },
           "LatestSprint": {
+            "type": "string"
+          },
+          "ScoreJun2025": {
+            "type": "string"
+          },
+          "ScoreJul2025": {
+            "type": "string"
+          },
+          "ScoreAug2025": {
+            "type": "string"
+          },
+          "ScoreSep2025": {
+            "type": "string"
+          },
+          "ScoreOct2025": {
             "type": "string"
           },
           "createdAt": {
@@ -8940,6 +9015,21 @@
                   "type": "string"
                 },
                 "LatestSprint": {
+                  "type": "string"
+                },
+                "ScoreJun2025": {
+                  "type": "string"
+                },
+                "ScoreJul2025": {
+                  "type": "string"
+                },
+                "ScoreAug2025": {
+                  "type": "string"
+                },
+                "ScoreSep2025": {
+                  "type": "string"
+                },
+                "ScoreOct2025": {
                   "type": "string"
                 },
                 "createdAt": {
